@@ -1,2 +1,7 @@
 /Pytorch_Retinaface-master/data/widerface
 /Pytorch_Retinaface-master/data/__pycache__
+/Pytorch_Retinaface-master/layers/__pycache__
+/Pytorch_Retinaface-master/layers/functions/__pycache__
+/Pytorch_Retinaface-master/layers/modules/__pycache__
+/Pytorch_Retinaface-master/models/__pycache__
+/Pytorch_Retinaface-master/utils/__pycache__
