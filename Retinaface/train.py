@@ -13,6 +13,8 @@ import datetime
 import math
 from models.retinaface import RetinaFace
 
+torch.cuda.empty_cache()
+
 parser = argparse.ArgumentParser(description='Retinaface Training')
 parser.add_argument('--training_dataset', default='./data/VNFace/train/label.txt', help='Training dataset directory')
 parser.add_argument('--network', default='mobile0.25', help='Backbone network mobile0.25 or resnet50')
