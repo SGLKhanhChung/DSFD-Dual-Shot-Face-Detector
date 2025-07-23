@@ -2,8 +2,8 @@ from facenet_pytorch import MTCNN
 from PIL import Image
 import os
 
-image_folder = r'C:\Users\Admin01\Downloads\VNFace\train'
-output_txt = r'C:\Users\Admin01\Downloads\VNFace\label.txt'
+image_folder = r'C:\Users\Admin01\Desktop\DSFD-Dual-Shot-Face-Detector\Retinaface\data\VNFace\train\images'
+output_txt = r'C:\Users\Admin01\Desktop\DSFD-Dual-Shot-Face-Detector\Retinaface\data\VNFace\train\label.txt'
 
 mtcnn = MTCNN(keep_all=True)  # Detect multiple faces per image
 
